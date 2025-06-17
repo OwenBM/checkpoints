@@ -1,0 +1,38 @@
+/* BASIC STYLES HERE */
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+main {
+  flex-grow: 1;
+  /* display: flex;
+  place-content: center;
+  align-items: center; */
+}
+
+#pop-toast-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: end;
+}
+
+.header-format {
+  background-color: #1F1D38;
+}
+
+.card-width {
+  min-width: 20vw
+}
+
+.jot-bg {
+  background-color: #282546;
+}
+
+.right-card-format {
+  background-color: #37335F;
+  min-height: 70vh;
+  min-width: 65vw;
+}

@@ -1,0 +1,30 @@
+/* BASIC STYLES HERE */
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  background-size: cover;
+}
+
+main {
+  flex-grow: 1;
+  /* display: flex;
+  place-content: center;
+  align-items: center; */
+}
+
+#pop-toast-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: end;
+}
+
+/* .frosted-glass {
+  backdrop-filter: blur(20px);
+  background-color: black;
+} */
+
+.temp-width {
+  max-width: 60px;
+}
